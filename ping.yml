@@ -3,7 +3,6 @@
 - name: Ping
   hosts: all
   gather_facts: false
-
   tasks:
-  - name: ping
-    win_ping:
+    - name: ping
+      win_ping:
